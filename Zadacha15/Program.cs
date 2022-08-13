@@ -2,7 +2,7 @@
 string Vihodnoy ()
 {
     Console.WriteLine("Введите цифру, обозначающую порядковый день в неделе");
-    int day = Convert.ToInt32(Console.Readline());
+    int day = Convert.ToInt32(Console.ReadLine());
     if (day == 6 || day == 7)
     {
         string otvet = "день является выходным";
